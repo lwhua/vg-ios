@@ -6,22 +6,19 @@
 //  Copyright © 2016年 lwhua. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "BuyViewController.h"
 
-@interface ViewController ()
+@interface BuyViewController ()
 
 @end
 
-@implementation ViewController
+@implementation BuyViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
-    UIView *mainView = [[UIView alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    mainView.backgroundColor = [UIColor whiteColor];
-    [self.view addSubview:mainView];
-    NSLog(@"vc init");
+    self.title = @"买";
 }
 
 - (void)didReceiveMemoryWarning {

@@ -6,9 +6,9 @@
 //  Copyright © 2016年 lwhua. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "VGBaseViewController.h"
 
-@interface ViewController : UIViewController
+@interface BuyViewController : VGBaseViewController
 
 
 @end
