@@ -80,6 +80,22 @@
 		88F392A81C74779300B45D78 /* UIScrollView+MJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 88F392881C74779300B45D78 /* UIScrollView+MJRefresh.m */; };
 		88F392A91C74779300B45D78 /* UIView+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 88F3928A1C74779300B45D78 /* UIView+MJExtension.m */; };
 		88F392AB1C7479FE00B45D78 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 88F392AA1C7479FE00B45D78 /* libsqlite3.0.tbd */; };
+		DF6ACB8C1C775EAF00EE8FC6 /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6ACB8B1C775EAF00EE8FC6 /* BaseModel.m */; };
+		DF6ACB951C7762F200EE8FC6 /* ColorHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6ACB8E1C7762F200EE8FC6 /* ColorHelper.m */; };
+		DF6ACB961C7762F200EE8FC6 /* CommonHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6ACB901C7762F200EE8FC6 /* CommonHelper.m */; };
+		DF6ACB971C7762F200EE8FC6 /* DateHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6ACB921C7762F200EE8FC6 /* DateHelper.m */; };
+		DF6ACB981C7762F200EE8FC6 /* InputHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6ACB941C7762F200EE8FC6 /* InputHelper.m */; };
+		DF6ACB9B1C7763D500EE8FC6 /* NetworkItemBase.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6ACB9A1C7763D500EE8FC6 /* NetworkItemBase.m */; };
+		DF6ACBA01C77640E00EE8FC6 /* DatabaseEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6ACB9D1C77640E00EE8FC6 /* DatabaseEngine.m */; };
+		DF6ACBA11C77640E00EE8FC6 /* DatabaseWorker.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6ACB9F1C77640E00EE8FC6 /* DatabaseWorker.m */; };
+		DF6ACBB21C77642200EE8FC6 /* UIButton+addtion.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6ACBA31C77642200EE8FC6 /* UIButton+addtion.m */; };
+		DF6ACBB31C77642200EE8FC6 /* UICollectionView+HintMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6ACBA51C77642200EE8FC6 /* UICollectionView+HintMessage.m */; };
+		DF6ACBB41C77642200EE8FC6 /* UIImage+System.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6ACBA71C77642200EE8FC6 /* UIImage+System.m */; };
+		DF6ACBB51C77642200EE8FC6 /* UINavigationController+Autorotate.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6ACBA91C77642200EE8FC6 /* UINavigationController+Autorotate.m */; };
+		DF6ACBB61C77642200EE8FC6 /* UITabBarController+Autorotate.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6ACBAB1C77642200EE8FC6 /* UITabBarController+Autorotate.m */; };
+		DF6ACBB71C77642200EE8FC6 /* UITableView+HintMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6ACBAD1C77642200EE8FC6 /* UITableView+HintMessage.m */; };
+		DF6ACBB81C77642200EE8FC6 /* UIView+FrameHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6ACBAF1C77642200EE8FC6 /* UIView+FrameHelper.m */; };
+		DF6ACBB91C77642200EE8FC6 /* UIView+Shake.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6ACBB11C77642200EE8FC6 /* UIView+Shake.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -117,8 +133,8 @@
 		88F391B51C74264500B45D78 /* BuyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuyViewController.h; sourceTree = "<group>"; };
 		88F391B61C74264500B45D78 /* BuyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuyViewController.m; sourceTree = "<group>"; };
 		88F391D61C74603700B45D78 /* Macro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Macro.h; sourceTree = "<group>"; };
-		88F391DA1C7465C400B45D78 /* VGTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VGTabBarViewController.h; path = ../TabBar/VGTabBarViewController.h; sourceTree = "<group>"; };
-		88F391DB1C7465C400B45D78 /* VGTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VGTabBarViewController.m; path = ../TabBar/VGTabBarViewController.m; sourceTree = "<group>"; };
+		88F391DA1C7465C400B45D78 /* VGTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VGTabBarViewController.h; sourceTree = "<group>"; };
+		88F391DB1C7465C400B45D78 /* VGTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VGTabBarViewController.m; sourceTree = "<group>"; };
 		88F391DD1C7466CD00B45D78 /* VGBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VGBaseViewController.h; sourceTree = "<group>"; };
 		88F391DE1C7466CD00B45D78 /* VGBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VGBaseViewController.m; sourceTree = "<group>"; };
 		88F391E01C74683A00B45D78 /* EatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EatViewController.h; sourceTree = "<group>"; };
@@ -248,6 +264,39 @@
 		88F392891C74779300B45D78 /* UIView+MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MJExtension.h"; sourceTree = "<group>"; };
 		88F3928A1C74779300B45D78 /* UIView+MJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MJExtension.m"; sourceTree = "<group>"; };
 		88F392AA1C7479FE00B45D78 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		DF6ACB8A1C775EAF00EE8FC6 /* BaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseModel.h; sourceTree = "<group>"; };
+		DF6ACB8B1C775EAF00EE8FC6 /* BaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseModel.m; sourceTree = "<group>"; };
+		DF6ACB8D1C7762F200EE8FC6 /* ColorHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorHelper.h; sourceTree = "<group>"; };
+		DF6ACB8E1C7762F200EE8FC6 /* ColorHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorHelper.m; sourceTree = "<group>"; };
+		DF6ACB8F1C7762F200EE8FC6 /* CommonHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonHelper.h; sourceTree = "<group>"; };
+		DF6ACB901C7762F200EE8FC6 /* CommonHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonHelper.m; sourceTree = "<group>"; };
+		DF6ACB911C7762F200EE8FC6 /* DateHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateHelper.h; sourceTree = "<group>"; };
+		DF6ACB921C7762F200EE8FC6 /* DateHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateHelper.m; sourceTree = "<group>"; };
+		DF6ACB931C7762F200EE8FC6 /* InputHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InputHelper.h; sourceTree = "<group>"; };
+		DF6ACB941C7762F200EE8FC6 /* InputHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InputHelper.m; sourceTree = "<group>"; };
+		DF6ACB991C7763D500EE8FC6 /* NetworkItemBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkItemBase.h; sourceTree = "<group>"; };
+		DF6ACB9A1C7763D500EE8FC6 /* NetworkItemBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkItemBase.m; sourceTree = "<group>"; };
+		DF6ACB9C1C77640E00EE8FC6 /* DatabaseEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatabaseEngine.h; sourceTree = "<group>"; };
+		DF6ACB9D1C77640E00EE8FC6 /* DatabaseEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatabaseEngine.m; sourceTree = "<group>"; };
+		DF6ACB9E1C77640E00EE8FC6 /* DatabaseWorker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatabaseWorker.h; sourceTree = "<group>"; };
+		DF6ACB9F1C77640E00EE8FC6 /* DatabaseWorker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatabaseWorker.m; sourceTree = "<group>"; };
+		DF6ACBA21C77642200EE8FC6 /* UIButton+addtion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+addtion.h"; sourceTree = "<group>"; };
+		DF6ACBA31C77642200EE8FC6 /* UIButton+addtion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+addtion.m"; sourceTree = "<group>"; };
+		DF6ACBA41C77642200EE8FC6 /* UICollectionView+HintMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UICollectionView+HintMessage.h"; sourceTree = "<group>"; };
+		DF6ACBA51C77642200EE8FC6 /* UICollectionView+HintMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UICollectionView+HintMessage.m"; sourceTree = "<group>"; };
+		DF6ACBA61C77642200EE8FC6 /* UIImage+System.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+System.h"; sourceTree = "<group>"; };
+		DF6ACBA71C77642200EE8FC6 /* UIImage+System.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+System.m"; sourceTree = "<group>"; };
+		DF6ACBA81C77642200EE8FC6 /* UINavigationController+Autorotate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+Autorotate.h"; sourceTree = "<group>"; };
+		DF6ACBA91C77642200EE8FC6 /* UINavigationController+Autorotate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+Autorotate.m"; sourceTree = "<group>"; };
+		DF6ACBAA1C77642200EE8FC6 /* UITabBarController+Autorotate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBarController+Autorotate.h"; sourceTree = "<group>"; };
+		DF6ACBAB1C77642200EE8FC6 /* UITabBarController+Autorotate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBarController+Autorotate.m"; sourceTree = "<group>"; };
+		DF6ACBAC1C77642200EE8FC6 /* UITableView+HintMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+HintMessage.h"; sourceTree = "<group>"; };
+		DF6ACBAD1C77642200EE8FC6 /* UITableView+HintMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+HintMessage.m"; sourceTree = "<group>"; };
+		DF6ACBAE1C77642200EE8FC6 /* UIView+FrameHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FrameHelper.h"; sourceTree = "<group>"; };
+		DF6ACBAF1C77642200EE8FC6 /* UIView+FrameHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FrameHelper.m"; sourceTree = "<group>"; };
+		DF6ACBB01C77642200EE8FC6 /* UIView+Shake.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Shake.h"; sourceTree = "<group>"; };
+		DF6ACBB11C77642200EE8FC6 /* UIView+Shake.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Shake.m"; sourceTree = "<group>"; };
+		DF6ACBBA1C77646000EE8FC6 /* Const.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Const.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -353,6 +402,22 @@
 		88F391AC1C74264500B45D78 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				DF6ACBA21C77642200EE8FC6 /* UIButton+addtion.h */,
+				DF6ACBA31C77642200EE8FC6 /* UIButton+addtion.m */,
+				DF6ACBA41C77642200EE8FC6 /* UICollectionView+HintMessage.h */,
+				DF6ACBA51C77642200EE8FC6 /* UICollectionView+HintMessage.m */,
+				DF6ACBA61C77642200EE8FC6 /* UIImage+System.h */,
+				DF6ACBA71C77642200EE8FC6 /* UIImage+System.m */,
+				DF6ACBA81C77642200EE8FC6 /* UINavigationController+Autorotate.h */,
+				DF6ACBA91C77642200EE8FC6 /* UINavigationController+Autorotate.m */,
+				DF6ACBAA1C77642200EE8FC6 /* UITabBarController+Autorotate.h */,
+				DF6ACBAB1C77642200EE8FC6 /* UITabBarController+Autorotate.m */,
+				DF6ACBAC1C77642200EE8FC6 /* UITableView+HintMessage.h */,
+				DF6ACBAD1C77642200EE8FC6 /* UITableView+HintMessage.m */,
+				DF6ACBAE1C77642200EE8FC6 /* UIView+FrameHelper.h */,
+				DF6ACBAF1C77642200EE8FC6 /* UIView+FrameHelper.m */,
+				DF6ACBB01C77642200EE8FC6 /* UIView+Shake.h */,
+				DF6ACBB11C77642200EE8FC6 /* UIView+Shake.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -360,6 +425,7 @@
 		88F391AD1C74264500B45D78 /* Const */ = {
 			isa = PBXGroup;
 			children = (
+				DF6ACBBA1C77646000EE8FC6 /* Const.h */,
 			);
 			path = Const;
 			sourceTree = "<group>";
@@ -367,6 +433,10 @@
 		88F391AE1C74264500B45D78 /* Database */ = {
 			isa = PBXGroup;
 			children = (
+				DF6ACB9C1C77640E00EE8FC6 /* DatabaseEngine.h */,
+				DF6ACB9D1C77640E00EE8FC6 /* DatabaseEngine.m */,
+				DF6ACB9E1C77640E00EE8FC6 /* DatabaseWorker.h */,
+				DF6ACB9F1C77640E00EE8FC6 /* DatabaseWorker.m */,
 			);
 			path = Database;
 			sourceTree = "<group>";
@@ -382,6 +452,8 @@
 		88F391B01C74264500B45D78 /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				DF6ACB991C7763D500EE8FC6 /* NetworkItemBase.h */,
+				DF6ACB9A1C7763D500EE8FC6 /* NetworkItemBase.m */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -389,6 +461,14 @@
 		88F391B11C74264500B45D78 /* Tool */ = {
 			isa = PBXGroup;
 			children = (
+				DF6ACB8D1C7762F200EE8FC6 /* ColorHelper.h */,
+				DF6ACB8E1C7762F200EE8FC6 /* ColorHelper.m */,
+				DF6ACB8F1C7762F200EE8FC6 /* CommonHelper.h */,
+				DF6ACB901C7762F200EE8FC6 /* CommonHelper.m */,
+				DF6ACB911C7762F200EE8FC6 /* DateHelper.h */,
+				DF6ACB921C7762F200EE8FC6 /* DateHelper.m */,
+				DF6ACB931C7762F200EE8FC6 /* InputHelper.h */,
+				DF6ACB941C7762F200EE8FC6 /* InputHelper.m */,
 			);
 			path = Tool;
 			sourceTree = "<group>";
@@ -558,10 +638,10 @@
 		88F391C71C74264500B45D78 /* Public */ = {
 			isa = PBXGroup;
 			children = (
+				DF6ACB8A1C775EAF00EE8FC6 /* BaseModel.h */,
+				DF6ACB8B1C775EAF00EE8FC6 /* BaseModel.m */,
 				88F391DD1C7466CD00B45D78 /* VGBaseViewController.h */,
 				88F391DE1C7466CD00B45D78 /* VGBaseViewController.m */,
-				88F391DA1C7465C400B45D78 /* VGTabBarViewController.h */,
-				88F391DB1C7465C400B45D78 /* VGTabBarViewController.m */,
 			);
 			path = Public;
 			sourceTree = "<group>";
@@ -583,6 +663,8 @@
 		88F391CA1C74264500B45D78 /* TabBar */ = {
 			isa = PBXGroup;
 			children = (
+				88F391DA1C7465C400B45D78 /* VGTabBarViewController.h */,
+				88F391DB1C7465C400B45D78 /* VGTabBarViewController.m */,
 			);
 			path = TabBar;
 			sourceTree = "<group>";
@@ -1030,6 +1112,7 @@
 			files = (
 				88F392921C74779300B45D78 /* JSONHTTPClient.m in Sources */,
 				88F392281C74739800B45D78 /* UIImage+MultiFormat.m in Sources */,
+				DF6ACBA11C77640E00EE8FC6 /* DatabaseWorker.m in Sources */,
 				88F392291C74739800B45D78 /* UIImage+WebP.m in Sources */,
 				88F391D51C74264500B45D78 /* BuyViewController.m in Sources */,
 				88F392241C74739800B45D78 /* SDWebImageManager.m in Sources */,
@@ -1040,27 +1123,35 @@
 				88F392221C74739800B45D78 /* SDWebImageDownloader.m in Sources */,
 				88F392A61C74779300B45D78 /* MJRefreshConst.m in Sources */,
 				88F391F91C74738E00B45D78 /* AFURLRequestSerialization.m in Sources */,
+				DF6ACBB31C77642200EE8FC6 /* UICollectionView+HintMessage.m in Sources */,
 				88F392A11C74779300B45D78 /* MJRefreshBackStateFooter.m in Sources */,
 				88F3923E1C7473A200B45D78 /* FMResultSet.m in Sources */,
 				88F391E81C74689A00B45D78 /* SeeViewController.m in Sources */,
+				DF6ACB981C7762F200EE8FC6 /* InputHelper.m in Sources */,
 				88F391FA1C74738E00B45D78 /* AFURLResponseSerialization.m in Sources */,
 				88F391F61C74738E00B45D78 /* AFHTTPSessionManager.m in Sources */,
 				88F3921D1C74739800B45D78 /* MKAnnotationView+WebCache.m in Sources */,
 				88F391E51C74684D00B45D78 /* MeViewController.m in Sources */,
+				DF6ACBA01C77640E00EE8FC6 /* DatabaseEngine.m in Sources */,
 				88F3921E1C74739800B45D78 /* NSData+ImageContentType.m in Sources */,
 				88F392271C74739800B45D78 /* UIImage+GIF.m in Sources */,
 				88F3923C1C7473A200B45D78 /* FMDatabasePool.m in Sources */,
 				88F392261C74739800B45D78 /* UIButton+WebCache.m in Sources */,
+				DF6ACB9B1C7763D500EE8FC6 /* NetworkItemBase.m in Sources */,
 				88F391781C73106200B45D78 /* main.m in Sources */,
 				88F392251C74739800B45D78 /* SDWebImagePrefetcher.m in Sources */,
+				DF6ACB951C7762F200EE8FC6 /* ColorHelper.m in Sources */,
 				88F3928E1C74779300B45D78 /* JSONModelClassProperty.m in Sources */,
+				DF6ACBB21C77642200EE8FC6 /* UIButton+addtion.m in Sources */,
 				88F392A41C74779300B45D78 /* MJRefreshStateHeader.m in Sources */,
 				88F392211C74739800B45D78 /* SDWebImageDecoder.m in Sources */,
+				DF6ACBB51C77642200EE8FC6 /* UINavigationController+Autorotate.m in Sources */,
 				88F3923A1C7473A200B45D78 /* FMDatabase.m in Sources */,
 				88F392961C74779300B45D78 /* MBProgressHUD.m in Sources */,
 				88F3921F1C74739800B45D78 /* SDImageCache.m in Sources */,
 				88F3929B1C74779300B45D78 /* MJRefreshHeader.m in Sources */,
 				88F392A81C74779300B45D78 /* UIScrollView+MJRefresh.m in Sources */,
+				DF6ACB8C1C775EAF00EE8FC6 /* BaseModel.m in Sources */,
 				88F392A01C74779300B45D78 /* MJRefreshBackNormalFooter.m in Sources */,
 				88F392941C74779300B45D78 /* JSONKeyMapper.m in Sources */,
 				88F392911C74779300B45D78 /* JSONAPI.m in Sources */,
@@ -1072,20 +1163,27 @@
 				88F391DF1C7466CD00B45D78 /* VGBaseViewController.m in Sources */,
 				88F392231C74739800B45D78 /* SDWebImageDownloaderOperation.m in Sources */,
 				88F391F81C74738E00B45D78 /* AFSecurityPolicy.m in Sources */,
+				DF6ACBB81C77642200EE8FC6 /* UIView+FrameHelper.m in Sources */,
 				88F3929F1C74779300B45D78 /* MJRefreshBackGifFooter.m in Sources */,
 				88F3922B1C74739800B45D78 /* UIImageView+WebCache.m in Sources */,
 				88F3923D1C7473A200B45D78 /* FMDatabaseQueue.m in Sources */,
 				88F3928C1C74779300B45D78 /* JSONModel.m in Sources */,
 				88F392A31C74779300B45D78 /* MJRefreshNormalHeader.m in Sources */,
+				DF6ACBB71C77642200EE8FC6 /* UITableView+HintMessage.m in Sources */,
 				88F392951C74779300B45D78 /* JSONValueTransformer.m in Sources */,
 				88F392931C74779300B45D78 /* JSONModel+networking.m in Sources */,
 				88F3929C1C74779300B45D78 /* MJRefreshAutoGifFooter.m in Sources */,
 				88F3929E1C74779300B45D78 /* MJRefreshAutoStateFooter.m in Sources */,
 				88F3922A1C74739800B45D78 /* UIImageView+HighlightedWebCache.m in Sources */,
+				DF6ACB961C7762F200EE8FC6 /* CommonHelper.m in Sources */,
+				DF6ACB971C7762F200EE8FC6 /* DateHelper.m in Sources */,
 				88F392901C74779300B45D78 /* NSArray+JSONModel.m in Sources */,
 				88F392A21C74779300B45D78 /* MJRefreshGifHeader.m in Sources */,
 				88F3928F1C74779300B45D78 /* JSONModelError.m in Sources */,
+				DF6ACBB61C77642200EE8FC6 /* UITabBarController+Autorotate.m in Sources */,
 				88F392971C74779300B45D78 /* MJRefreshAutoFooter.m in Sources */,
+				DF6ACBB41C77642200EE8FC6 /* UIImage+System.m in Sources */,
+				DF6ACBB91C77642200EE8FC6 /* UIView+Shake.m in Sources */,
 				88F3929D1C74779300B45D78 /* MJRefreshAutoNormalFooter.m in Sources */,
 				88F392991C74779300B45D78 /* MJRefreshComponent.m in Sources */,
 				88F391DC1C7465C400B45D78 /* VGTabBarViewController.m in Sources */,
@@ -1184,7 +1282,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -1221,7 +1319,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -1235,6 +1333,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Vg/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yaoshibang.Vg;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1249,6 +1348,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Vg/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yaoshibang.Vg;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1284,6 +1384,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				INFOPLIST_FILE = VgUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yaoshibang.VgUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1296,6 +1397,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				INFOPLIST_FILE = VgUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yaoshibang.VgUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
