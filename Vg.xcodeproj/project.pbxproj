@@ -325,14 +325,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		88F3916A1C73106200B45D78 = {
+		88451F761C7C67A000C4E7E7 /* FrameWork */ = {
 			isa = PBXGroup;
 			children = (
 				88F392AA1C7479FE00B45D78 /* libsqlite3.0.tbd */,
+			);
+			name = FrameWork;
+			sourceTree = "<group>";
+		};
+		88F3916A1C73106200B45D78 = {
+			isa = PBXGroup;
+			children = (
 				88F391751C73106200B45D78 /* Vg */,
 				88F3918F1C73106200B45D78 /* VgTests */,
 				88F3919A1C73106200B45D78 /* VgUITests */,
 				88F391741C73106200B45D78 /* Products */,
+				88451F761C7C67A000C4E7E7 /* FrameWork */,
 			);
 			sourceTree = "<group>";
 		};
