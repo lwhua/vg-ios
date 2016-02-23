@@ -33,4 +33,11 @@
 #define NSLog(FORMAT, ...) nil
 #endif
 
+
+#define kMainColor [UIColor colorWithRed:253 / 255.0f green:92 / 255.0f blue:2 / 255.0f alpha:1.0f]
+#define kBackgroundColor [UIColor whiteColor]
+#define kAlertViewRedColor [UIColor colorWithRed:230 / 255.0f green:0 / 255.0f blue:18 / 255.0f alpha:1.0f]
+#define COLOR_CLEAR [UIColor clearColor]
+#define COLOR_646464 [UIColor colorWithRed:0x64 / 255.0f green:0x64 / 255.0f blue:0x64 / 255.0f alpha:1.0f]
+
 #endif /* Macro_h */

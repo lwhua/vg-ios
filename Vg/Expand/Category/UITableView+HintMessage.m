@@ -8,6 +8,9 @@
 
 #import "UITableView+HintMessage.h"
 #import <objc/runtime.h>
+#import "UIView+FrameHelper.h"
+#import "InputHelper.h"
+#import "Macro.h"
 
 static const void* kHintMessageLabelKey = "HintMessageLabelKey";
 
