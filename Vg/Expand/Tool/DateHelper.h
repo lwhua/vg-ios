@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 @interface DateHelper : NSObject
 
@@ -20,9 +21,9 @@
 /**
  *  将秒数转换为时：分：秒
  *
- *  @param duration <#duration description#>
+ *  @param duration
  *
- *  @return <#return value description#>
+ *  @return
  */
 + (NSString *)changeDurationToTime:(CGFloat)duration;
 /**

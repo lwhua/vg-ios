@@ -13,9 +13,10 @@
 #import "DataBaseServer.h"
 #import "MBProgressHUD.h"
 #import "UserInfoPro.h"
-#import "NotificationMacro.h"
+//#import "NotificationMacro.h"
 #import "YSBProMacro.h"
 #import <mach/mach_time.h>
+#import "InputHelper.h"
 
 
 #define kHttpRetryCount 1
@@ -118,22 +119,22 @@ static MKNetworkEngine *_testEngine = nil;
 
 - (void)startGet {
 	// 需要token
-	if (_flag != NWFlagNone
-	    && [UserInfoPro shareInstance].userInfo) {
-		if (_params) {
-			NSMutableDictionary *tmpDic = [NSMutableDictionary dictionaryWithDictionary:_params];
-			[tmpDic setObject:[UserInfoPro shareInstance].userInfo.usertoken forKey:@"usertoken"];
-			_params = tmpDic;
-		}
-		else {
-			if ([_path rangeOfString:@"?"].location == NSNotFound) {
-				_path = [NSString stringWithFormat:@"%@?usertoken=%@", _path, [UserInfoPro shareInstance].userInfo.usertoken];
-			}
-			else {
-				_path = [NSString stringWithFormat:@"%@&usertoken=%@", _path, [UserInfoPro shareInstance].userInfo.usertoken];
-			}
-		}
-	}
+//	if (_flag != NWFlagNone
+//	    && [UserInfoPro shareInstance].userInfo) {
+//		if (_params) {
+//			NSMutableDictionary *tmpDic = [NSMutableDictionary dictionaryWithDictionary:_params];
+//			[tmpDic setObject:[UserInfoPro shareInstance].userInfo.usertoken forKey:@"usertoken"];
+//			_params = tmpDic;
+//		}
+//		else {
+//			if ([_path rangeOfString:@"?"].location == NSNotFound) {
+//				_path = [NSString stringWithFormat:@"%@?usertoken=%@", _path, [UserInfoPro shareInstance].userInfo.usertoken];
+//			}
+//			else {
+//				_path = [NSString stringWithFormat:@"%@&usertoken=%@", _path, [UserInfoPro shareInstance].userInfo.usertoken];
+//			}
+//		}
+//	}
 
 	[self sendRequest:HttpMethodGet];
 }
@@ -153,7 +154,7 @@ static MKNetworkEngine *_testEngine = nil;
 	NSString *version = [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleShortVersionString"];
 	[dic setObject:version forKey:@"version"];
 	if (_flag != NWFlagNone) {
-		[dic setObject:[UserInfoPro shareInstance].userInfo.usertoken ? : @"" forKey:@"usertoken"];
+//		[dic setObject:[UserInfoPro shareInstance].userInfo.usertoken ? : @"" forKey:@"usertoken"];
 	}
 	_params = dic;
 
@@ -230,26 +231,26 @@ static MKNetworkEngine *_testEngine = nil;
 	switch (_cacheType) {
 		case CacheTypeUseCahe:
 		{
-			NSString *key = [[NSString stringWithFormat:@"%@:%@", operation.url, [InputHelper convertToJsonString:operation.readonlyPostDictionary options:YES]] md5];
-			id result = [DataBaseServer getCache:key];
-			if (result) {
-                _isCache = YES;
-				[self dealComplete:[InputHelper jsonConvertToObject:result] succ:YES];
-				NSLog(@"\n数据来自：%@\n请求地址：%@\n提交数据：%@\n返回数据:%@", @"缓存", operation.url, operation.readonlyPostDictionary, [InputHelper jsonConvertToObject:result]);
-				return;
-			}
+//			NSString *key = [[NSString stringWithFormat:@"%@:%@", operation.url, [InputHelper convertToJsonString:operation.readonlyPostDictionary options:YES]] md5];
+//			id result = [DataBaseServer getCache:key];
+//			if (result) {
+//                _isCache = YES;
+//				[self dealComplete:[InputHelper jsonConvertToObject:result] succ:YES];
+//				NSLog(@"\n数据来自：%@\n请求地址：%@\n提交数据：%@\n返回数据:%@", @"缓存", operation.url, operation.readonlyPostDictionary, [InputHelper jsonConvertToObject:result]);
+//				return;
+//			}
 		}
 		break;
 
 		case CacheTypeCacheAndServer:
 		{
-			NSString *key = [[NSString stringWithFormat:@"%@:%@", operation.url, [InputHelper convertToJsonString:operation.readonlyPostDictionary options:YES]] md5];
-			id result = [DataBaseServer getCache:key];
-			if (result) {
-                _isCache = YES;
-				[self dealComplete:[InputHelper jsonConvertToObject:result] succ:YES];
-				NSLog(@"\n数据来自：%@\n请求地址：%@\n提交数据：%@\n返回数据:%@", @"缓存", operation.url, operation.readonlyPostDictionary, [InputHelper jsonConvertToObject:result]);
-			}
+//			NSString *key = [[NSString stringWithFormat:@"%@:%@", operation.url, [InputHelper convertToJsonString:operation.readonlyPostDictionary options:YES]] md5];
+//			id result = [DataBaseServer getCache:key];
+//			if (result) {
+//                _isCache = YES;
+//				[self dealComplete:[InputHelper jsonConvertToObject:result] succ:YES];
+//				NSLog(@"\n数据来自：%@\n请求地址：%@\n提交数据：%@\n返回数据:%@", @"缓存", operation.url, operation.readonlyPostDictionary, [InputHelper jsonConvertToObject:result]);
+//			}
 		}
 		break;
 
@@ -310,7 +311,7 @@ static MKNetworkEngine *_testEngine = nil;
 		} else {
 			
 			if ([[result objectForKey:@"code"] integerValue] == 40020) {
-				[[NSNotificationCenter defaultCenter] postNotificationName:NOTIFI_TOKEN_OUTTIME object:@"tokenError"];
+//				[[NSNotificationCenter defaultCenter] postNotificationName:NOTIFI_TOKEN_OUTTIME object:@"tokenError"];
 			} else {
                 
                 NSString *msg = [result objectForKey:@"message"];
@@ -398,7 +399,7 @@ static MKNetworkEngine *_testEngine = nil;
 		NSString *key = [[NSString stringWithFormat:@"%@:%@", completedOperation.url, string] md5];
         NSString *resultJson = [InputHelper convertToJsonString:result options:YES];
         if (resultJson) {
-            [DataBaseServer insertCache:key value:resultJson];
+//            [DataBaseServer insertCache:key value:resultJson];
         }
         
 		

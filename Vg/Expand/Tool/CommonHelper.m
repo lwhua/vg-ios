@@ -12,6 +12,7 @@
 #import <AVFoundation/AVFoundation.h>
 #import "NSString+Base64.h"
 #import <CoreLocation/CLLocationManager.h>
+#import "InputHelper.h"
 
 @implementation CommonHelper
 
@@ -566,8 +567,8 @@
 + (UIView *)configureNoDataTipsViewInView:(UIView *)view tips:(NSString *)tips {
 	UIView *noDataBgView = [[UIView alloc]initWithFrame:view.bounds];
 
-	UILabel *tipsLbl = [InputHelper createLabelWithFrame:CGRectMake(10.0f, noDataBgView.height / 2 - 20.0f, noDataBgView.width - 2 * 10.0f, 20.0f) title:tips textColor:COLOR_646464 bgColor:COLOR_CLEAR fontSize:14.0f textAlignment:NSTextAlignmentCenter addToView:noDataBgView bBold:NO];
-	[tipsLbl setTag:kNoDataTipsLblTag];
+//	UILabel *tipsLbl = [InputHelper createLabelWithFrame:CGRectMake(10.0f, noDataBgView.height / 2 - 20.0f, noDataBgView.width - 2 * 10.0f, 20.0f) title:tips textColor:COLOR_646464 bgColor:COLOR_CLEAR fontSize:14.0f textAlignment:NSTextAlignmentCenter addToView:noDataBgView bBold:NO];
+//	[tipsLbl setTag:kNoDataTipsLblTag];
 	return noDataBgView;
 }
 

@@ -48,7 +48,7 @@
                                                  image:[[UIImage imageNamed:imageArray[i]] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal]
                                          selectedImage:[[UIImage imageNamed:selectedImageArray[i]] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal]];
             
-            [item setTitleTextAttributes:@{NSForegroundColorAttributeName : [UIColor greenColor] } forState:UIControlStateSelected];
+            [item setTitleTextAttributes:@{NSForegroundColorAttributeName : [UIColor blueColor] } forState:UIControlStateSelected];
             controller.tabBarItem = item;
             
             UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:controller];
